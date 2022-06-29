@@ -1,4 +1,14 @@
 
+/*
+  Theme Name: Folio
+  Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+  Author: BootstrapMade.com
+  Author URL: https://bootstrapmade.com
+*/
+
+/*  General Styling
+/*-----------------------------------------------------------------------------------*/
+
 body {
   background: #ffffff;
   color: #18191A;
@@ -211,7 +221,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
+  color: #000000;
   font-family: 'Comfortaa';
   font-weight: 500;
   line-height: 16px;
@@ -411,7 +421,7 @@ nav ul li a {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #999999;
+  color: #000000;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Comfortaa';
@@ -465,10 +475,12 @@ nav ul li a {
   list-style: none;
   margin: 0;
   padding: 0;
+  color: #000000;
 }
 
 .contact-details li {
   padding-bottom: 10px;
+  color: #000000;
 }
 
 #contact input, #contact textarea {
@@ -477,8 +489,8 @@ nav ul li a {
 
 
 #contact  #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
+  color: #000000;
+  border: 1px solid #000000;
   display: none;
   text-align: center;
   padding: 15px;
@@ -487,9 +499,9 @@ nav ul li a {
 }
 
 #contact  #errormessage {
-  color: red;
+  color: black;
   display: none;
-  border: 1px solid red;
+  border: 1px solid black;
   text-align: center;
   padding: 15px;
   font-weight: 600;
