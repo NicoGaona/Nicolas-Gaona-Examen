@@ -18,15 +18,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Limelight&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Simple line icons-->
 
+  <!-- Simple line icons-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
 
   <!-- Libraries CSS Files -->
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/hover/hover.min.css" rel="stylesheet">
+
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -37,22 +40,27 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon.svg">
 
-</head>
 
-<body>
+</head>
+<body id="page-top">
+
+
 
   <!-- start section navbar -->
   <nav id="main-nav">
     <div class="row">
       <div class="container">
 
+        <img src="images/logo.gif" height="60">
 
 
-        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
-        <ul class="nav-menu list-unstyled">
+        <div class="responsive"><i data-icon="m" class="icon-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled" style="padding: 20px">
           <li><a href="#header" class="smoothScroll">Inicio</a></li>
           <li><a href="#about" class="smoothScroll">Sobre mí</a></li>
+          <li><a href="#services" class="smoothScroll">Servicios</a></li>
           <li><a href="#portfolio" class="smoothScroll">Portafolio</a></li>
           <li><a href="#contact" class="smoothScroll">Contáctame</a></li>
         </ul>
@@ -69,7 +77,7 @@
     <div class="container">
       <div class="header-content">
         <h1>Soy <span class="typed"></span></h1>
-        <p>diseñador, ilustrador, fotógrafo</p>
+        <p>Nico, Ilustrador y Diseñador.</p>
       </div>
     </div>
   </div>
@@ -93,8 +101,8 @@
           <div class="about-descr">
 
           <h7>¡Hola soy Nico!</h7>
-            <p class="p-heading">Soy un estudiante de diseño en la Pontificia Universidad Católica de Chile. </p>
-            <p class="separator">LLevo ya varios años dedicandome a la ilustración y el diseño gráfico pero todavía me queda mucho por aprender.</p>
+            <p class="p-heading">Estudiante de Diseño de la PUC</p>
+            <p class="separator">LLevo ya varios años dedicandome a la ilustración y el diseño gráfico pero todavía me queda mucho por aprender. Me gustaría dedicarme a crear logos y también especializarme en diseño de UX/UI.</p>
             <p class="separator">Otras cosas sobre mí es que sé hablar inglés, francés y español, fui semi-finalista en la Vex Robotics competition e hice una pasantía en el laboratorio de biología marina de la Universidad de Santiago de Chile.</p>
 
           </div>
@@ -105,36 +113,55 @@
   </div>
   <!-- end section about us -->
 
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("images/parallax.JPG");
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div id="parallax" class="parallax"></div>
+
     <!-- start section services -->
 
   <section class="content-section bg-darkgrey text-blackss text-center" id="services">
-              <div class="container px-4 px-lg-5">
+              <div class="container px-4 px-lg-5" style="padding-top: 80px;">
                   <div class="content-section-heading">
                       <h7 class="mb-5">¿Qué hago?</h7>
                         <p class="separator"> </p>
                   </div>
-                  <div class="row gx-4 gx-lg-5">
+                  <div class="row gx-4 gx-lg-5" style="padding: 30px;">
                       <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                          <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-game-controller"></i></span>
-                          <h4><strong>Entretenimiento</strong></h4>
-                          <p class="text-faded mb-0">Diseño de personajes y juegos de mesa</p>
+                          <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-tablet"></i></span>
+                          <h4><strong>Diseño</strong></h4>
+                          <p class="text-faded mb-0">Diseño de logos, productos y branding.</p>
                       </div>
                       <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                           <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
                           <h4><strong>Ilustración</strong></h4>
-                          <p class="text-faded mb-0">Desde dibujo a mano hasta pixelart</p>
+                          <p class="text-faded mb-0">Dibujo a mano, digital e incluso hago pixel art.</p>
                       </div>
                       <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                           <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-camera"></i></span>
                           <h4><strong>Fotografía</strong></h4>
                           <p class="text-faded mb-0">
-                              Tanto digital como análoga
+                              Me gusta sacar fotos de vez en cuando.
                           </p>
                       </div>
                       <div class="col-lg-3 col-md-6">
                           <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
                           <h4><strong>Comedia</strong></h4>
-                          <p class="text-faded mb-0">Soy chistoso</p>
+                          <p class="text-faded mb-0">Soy chistoso (a veces).</p>
                       </div>
                   </div>
               </div>
@@ -142,120 +169,178 @@
 
 
   <!-- end section services -->
+<img src="images/portfolio/image.jpg" width="auto" height="420">
 
- 
 
   <!-- start section portfolio -->
-  <div id="portfolio" class="text-center paddsection">
-
-    <div class="container">
-      <div class="section-title text-center">
-        <h7>Mi Portafolio</h7>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-          <div class="portfolio-list">
-
-            <ul class="nav list-unstyled" id="portfolio-flters">
-              <li class="filter filter-active" data-filter=".all">todo</li>
-              <li class="filter" data-filter=".foto">fotografía</li>
-              <li class="filter" data-filter=".arte">ilustración</li>
-              <li class="filter" data-filter=".pixel">pixelart</li>
-              <li class="filter" data-filter=".design">diseño</li>
-
-            </ul>
-
+  <section class="page-section bg-light" id="portfolio">
+      <div class="container">
+          <div class="text-center" style="padding-top: 100px">
+              <h7 class="section-heading text-uppercase">Portafolio</h7>
+              <p class="p-heading" style="padding-bottom: 30px">Algunos proyectos e ideas que he tenido.</p>
           </div>
-
-          <div class="portfolio-container">
-
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all design">
-              <a class="popup-img" href="images/portfolio/2design.jpg">
-                <img src="images/portfolio/2design.jpg" alt="img" loading="lazy">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all design">
-              <a class="popup-img" href="images/portfolio/4design.jpg">
-                <img src="images/portfolio/4design.jpg" alt="img" loading="lazy">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all design">
-              <a class="popup-img" href="images/portfolio/3design.jpg">
-                <img src="images/portfolio/3design.jpg" alt="img" loading="lazy">
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all foto">
-              <a class="popup-img" href="images/portfolio/1foto.JPG">
-                <img src="images/portfolio/1foto.JPG" alt="img" loading="lazy">
-              </a>
-            </div>
-
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all foto">
-              <a class="popup-img" href="images/portfolio/3foto.JPG">
-                <img src="images/portfolio/3foto.JPG" alt="img" loading="lazy">
-              </a>
-            </div>
-
-
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all arte">
-              <a class="popup-img" href="images/portfolio/2arte.jpg">
-                <img src="images/portfolio/2arte.jpg"  alt="img" loading="lazy">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all arte">
-              <a class="popup-img" href="images/portfolio/3arte.jpg">
-                <img src="images/portfolio/3arte.jpg"  alt="img" loading="lazy">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pixel">
-              <a class="popup-img" href="images/portfolio/4pixel.jpg">
-                <img src="images/portfolio/4pixel.jpg" alt="img" loading="lazy">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pixel">
-              <a class="popup-img" href="images/portfolio/2pixel.jpg">
-                <img src="images/portfolio/2pixel.jpg" alt="img" loading="lazy">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pixel">
-              <a class="popup-img" href="images/portfolio/3pixel.jpg">
-                <img src="images/portfolio/3pixel.jpg" alt="img" loading="lazy">
-              </a>
-            </div>
-
-
-
-
-
+          <div class="row">
+              <div class="col-lg-4 col-sm-6 mb-4">
+                  <!-- Portfolio item 1-->
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                          </div>
+                          <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Tribal</div>
+                          <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4">
+                  <!-- Portfolio item 2-->
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                          </div>
+                          <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Vélocity</div>
+                          <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4">
+                  <!-- Portfolio item 3-->
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                          </div>
+                          <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Voyager</div>
+                          <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                  <!-- Portfolio item 4-->
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                          </div>
+                          <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Silla Katashiro</div>
+                          <div class="portfolio-caption-subheading text-muted">Product Design / Design Sketch</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                  <!-- Portfolio item 5-->
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                          </div>
+                          <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Silla Danbok</div>
+                          <div class="portfolio-caption-subheading text-muted">Product Design / Design Sketch</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                  <!-- Portfolio item 6-->
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                          </div>
+                          <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Silla Danoje</div>
+                          <div class="portfolio-caption-subheading text-muted">Product Design / Design Sketch</div>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
 
-  </div>
+  </section>
   <!-- End section portfolio -->
+
+
+    <!-- start section portfolio 2-->
+
+  <section class="page-section bg-light" id="portfolio">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-sm-6 mb-4">
+                  <!-- Portfolio item 7-->
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                          </div>
+                          <img class="img-fluid" src="assets/img/portfolio/7.jpg" alt="..." />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Von Mering</div>
+                          <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4">
+                  <!-- Portfolio item 8-->
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                          </div>
+                          <img class="img-fluid" src="assets/img/portfolio/8.jpg" alt="..." />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Ritmos Latinos</div>
+                          <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4">
+                  <!-- Portfolio item 9-->
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                          </div>
+                          <img class="img-fluid" src="assets/img/portfolio/9.jpg" alt="..." />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Orion Money 💀</div>
+                          <div class="portfolio-caption-subheading text-muted">Rip Luna</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                </section>
+
+                <!-- End section portfolio 2-->
+
 
 
   <!-- Map-->
      <div class="col-lg-my-4">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5600.583328321699!2d-70.62166083702822!3d-33.4199391412852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6087934ca9%3A0x179482715007d19f!2sCampus%20Lo%20Contador%20Pontificia%20Universidad%20Cat%C3%B3lica%20de%20Chile!5e0!3m2!1ses-419!2scl!4v1654192064449!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Un Mapa"></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16806.793270668746!2d-70.62689244747163!3d-33.419630597114725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6087934ca9%3A0x179482715007d19f!2sCampus%20Lo%20Contador%20Pontificia%20Universidad%20Cat%C3%B3lica%20de%20Chile!5e1!3m2!1ses!2scl!4v1667512175324!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Un Mapa"></iframe>
      </div>
    </div>
 
-  <!-- start sectoion contact -->
+  <!-- start section contact -->
   <div id="contact" class="paddsection">
     <div class="container">
               <h2 class="mb-30">Contáctame</h2>
@@ -269,15 +354,335 @@
 
             </div>
           </div>
-  <!-- start sectoion contact -->
+
+  <!-- start section contact -->
+
 
 
   <!-- start section footer -->
   <footer class="footer text-center">
 
-    <p><a href="https://github.com/NicoGaona">Github     - </a> <a href="https://www.facebook.com/nicolas.gaonagonzalez">Facebook -     </a> <a href="https://twitter.com/___Neeko___">Twitter</a></p>
+    <p><a href="https://github.com/NicoGaona">Github     - </a> <a href="https://www.instagram.com/neekoolaa/">Instagram -     </a> <a href="https://twitter.com/___Neeko___">Twitter</a></p>
 
           </footer>
+
+          <!-- Portfolio Modals-->
+          <!-- Portfolio item 1 modal popup-->
+          <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <div class="modal-body">
+                                      <!-- Project details-->
+                                      <h2 class="text-uppercase">Tribal</h2>
+                                      <p class="item-intro text-muted">Solana Summercamp Hackathon HR Project.</p>
+                                      <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                      <p>Proyecto de recursos humanos para pagos payroll automatizados y para manejo de administración de talento y tesorería de DAOs en Solana. Inspirado en Utopia Labs.</p>
+                                      <ul class="list-inline">
+                                          <li>
+                                              <strong>Solana Summercamp</strong>
+
+                                          </li>
+                                          <li>
+                                              <strong>Category:</strong>
+                                              Graphic Design
+                                          </li>
+                                      </ul>
+                                      <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                          <i class="fas fa-xmark me-1"></i>
+                                          Close Project
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Portfolio item 2 modal popup-->
+          <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <div class="modal-body">
+                                      <!-- Project details-->
+                                      <h2 class="text-uppercase">Vélocity</h2>
+                                      <p class="item-intro text-muted">Le Tour de France pour toute la France.</p>
+                                      <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                                      <p>Vélocity es una idea que nació de crear un logo e imagen para una empresa de arriendo de bicicletas en Francia, el nombre se origina de la mezcla entre “Vélo” (bicicleta en francés) y “Velocity” (Velocidad en inglés).</p>
+                                      <ul class="list-inline">
+                                          <li>
+                                              <strong>Proyecto Personal</strong>
+
+                                          </li>
+                                          <li>
+                                              <strong>Category:</strong>
+                                              Graphic Design
+                                          </li>
+                                      </ul>
+                                      <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                          <i class="fas fa-xmark me-1"></i>
+                                          Close Project
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Portfolio item 3 modal popup-->
+          <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <div class="modal-body">
+                                      <!-- Project details-->
+                                      <h2 class="text-uppercase">Voyager</h2>
+                                      <p class="item-intro text-muted">To infinity and beyond.</p>
+                                      <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                                      <p>Voyager es una idea de marca que nace de la sonda espacial que lleva el mismo nombre, esta me inspiró a imaginar cómo se vería un logo inspirado en el viaje espacial.</p>
+                                      <ul class="list-inline">
+                                          <li>
+                                              <strong>Proyecto Personal</strong>
+
+                                          </li>
+                                          <li>
+                                              <strong>Category:</strong>
+                                              Graphic Design
+                                          </li>
+                                      </ul>
+                                      <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                          <i class="fas fa-xmark me-1"></i>
+                                          Close Project
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Portfolio item 4 modal popup-->
+          <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <div class="modal-body">
+                                      <!-- Project details-->
+                                      <h2 class="text-uppercase">Silla Katashiro</h2>
+                                      <p class="item-intro text-muted">Variante 1 Sillas Festivales Taller 4.</p>
+                                      <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                      <p>Inspirada en las muñecas Katashiro Japonesas esta silla busca transmitir lo serio y estricto de la sociedad y cultura Japonesa, además de representar elementos y líneas de sus vestimentas tradicionales.</p>
+                                      <ul class="list-inline">
+                                          <li>
+                                              <strong>Proyecto Universitario</strong>
+
+                                          </li>
+                                          <li>
+                                              <strong>Category:</strong>
+                                              Product Design
+                                          </li>
+                                      </ul>
+                                      <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                          <i class="fas fa-xmark me-1"></i>
+                                          Close Project
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Portfolio item 5 modal popup-->
+          <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <div class="modal-body">
+                                      <!-- Project details-->
+                                      <h2 class="text-uppercase">Silla Danbok</h2>
+                                      <p class="item-intro text-muted">Variante 2 Sillas Festivales Taller 4.</p>
+                                      <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                      <p>Inspirada en las vestimentas tradicionales coreanas, esta silla busca representar los pliegues y colores de las prendas Danbok en la superficie textil del asiento pero sin alterar la forma física de este.</p>
+                                      <ul class="list-inline">
+                                          <li>
+                                              <strong>Proyecto Universitario</strong>
+
+                                          </li>
+                                          <li>
+                                              <strong>Category:</strong>
+                                              Product Design
+                                          </li>
+                                      </ul>
+                                      <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                          <i class="fas fa-xmark me-1"></i>
+                                          Close Project
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Portfolio item 6 modal popup-->
+          <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <div class="modal-body">
+                                      <!-- Project details-->
+                                      <h2 class="text-uppercase">Silla Danoje</h2>
+                                      <p class="item-intro text-muted">Variante 3 Sillas Festivales Taller 4.</p>
+                                      <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                      <p>La Silla Danoje está inspirada en el festival coreano Dano de Gangneung, esta representa las líneas rectas de la vestimenta tradicional de un bailarín, los pompones que llevan en su sombrero y el banderín que algunos portan en la espalda. </p>
+                                      <ul class="list-inline">
+                                          <li>
+                                                <strong>Proyecto Universitario</strong>
+
+                                          </li>
+                                          <li>
+                                              <strong>Category:</strong>
+                                              Product Design
+                                          </li>
+                                      </ul>
+                                      <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                          <i class="fas fa-xmark me-1"></i>
+                                          Close Project
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Portfolio item 7 modal popup-->
+          <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <div class="modal-body">
+                                      <!-- Project details-->
+                                      <h2 class="text-uppercase">Von Mering</h2>
+                                      <p class="item-intro text-muted">Pharmaceutical company.</p>
+                                      <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/7.jpg" alt="..." />
+                                      <p>Propuesta de logo para empresas famraceuticas, representa una pastilla y los tamaños de las dosis. El nombre es en honor al primer médico en administrar paracetamol a sus pacientes.</p>
+                                      <ul class="list-inline">
+                                          <li>
+                                              <strong>Proyecto Personal</strong>
+
+                                          </li>
+                                          <li>
+                                              <strong>Category:</strong>
+                                              Graphic Design
+                                          </li>
+                                      </ul>
+                                      <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                          <i class="fas fa-xmark me-1"></i>
+                                          Close Project
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Portfolio item 2 modal popup-->
+          <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <div class="modal-body">
+                                      <!-- Project details-->
+                                      <h2 class="text-uppercase">¡Bailá, Vení, Volá!</h2>
+                                      <p class="item-intro text-muted">Familia de 5 íconos de Bailes Latinos.</p>
+
+                                      <a href="https://www.instagram.com/p/CInv2ssDCr3/"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/8.jpg" alt="..." /></a>
+                                      <p>Proyecto <a href="https://www.instagram.com/p/CInv2ssDCr3/">destacado</a> de Taller 1, a los estudiantes se nos encargó realizar una familia de 5 íconos representando géneros de música latinoamericana.</p>
+                                      <ul class="list-inline">
+                                          <li>
+                                              <strong>Proyecto Universitario</strong>
+
+                                          </li>
+                                          <li>
+                                              <strong>Category:</strong>
+                                              Graphic Design
+                                          </li>
+                                      </ul>
+                                      <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                          <i class="fas fa-xmark me-1"></i>
+                                          Close Project
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Portfolio item 3 modal popup-->
+          <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <div class="modal-body">
+                                      <!-- Project details-->
+                                      <h2 class="text-uppercase">Orion Money</h2>
+                                      <p class="item-intro text-muted">Propuesta de logo para concurso de Orion Money.</p>
+                                      <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/9.jpg" alt="..." />
+                                      <p>Una de las 3 propuestas que presenté para el concurso de nuevo logo para Orion Money de la Terra Blockchain, llegando a la segunda etapa de votación (top 20)</p>
+                                      <ul class="list-inline">
+                                          <li>
+                                              <strong>Concurso</strong>
+
+                                          </li>
+                                          <li>
+                                              <strong>Category:</strong>
+                                              Graphic Design
+                                          </li>
+                                      </ul>
+                                      <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                          <i class="fas fa-xmark me-1"></i>
+                                          Close Project
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
@@ -287,6 +692,7 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
@@ -297,3 +703,4 @@
 </body>
 
 </html>
+
